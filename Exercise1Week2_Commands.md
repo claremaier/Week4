@@ -8009,4 +8009,320 @@ clare@clare-fun1:~/School/Week4$ nano Exercise1Week2_Commands.md
 clare@clare-fun1:~/School/Week4$ sed -r -i.bak (,)( [0-9]{4}.+)
 
 **Step 3 is Below**
+*Note: Not the whole command line - it got erased because by the terminal because it was much too long - I think*
+
+clare@clare-fun1:~/School/Week4$ cp index.txt cleaned-correspondence.csv
+clare@clare-fun1:~/School/Week4$ ls
+cleaned-correspondence.csv  index_backup.txt  index.txt.bk
+Exercise1Week2_Commands.md  index.txt	      README.md
+Exercise1Week4.md	    index.txt.bak     texas.txt
+clare@clare-fun1:~/School/Week4$ git add cleaned-correspondence.csv 
+clare@clare-fun1:~/School/Week4$ git commit
+[master c9906ef] Step 6 Exercise 1, cleaned correspondance
+ 1 file changed, 11967 insertions(+)
+ create mode 100644 cleaned-correspondence.csv
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index_backup.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+clare@clare-fun1:~/School/Week4$ git add -all
+error: did you mean `--all` (with two dashes ?)
+clare@clare-fun1:~/School/Week4$ git add index_backup.txt 
+clare@clare-fun1:~/School/Week4$ git commit
+[master b3dac7d] Hopefully this is the safe backup
+ 1 file changed, 11967 insertions(+)
+ create mode 100644 index_backup.txt
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+clare@clare-fun1:~/School/Week4$ rm cleaned-correspondence.csv 
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    cleaned-correspondence.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+clare@clare-fun1:~/School/Week4$ nano index.txt
+clare@clare-fun1:~/School/Week4$ git add --all
+clare@clare-fun1:~/School/Week4$ git commit
+[master 8c90fc0] the actual right folder for step 6, exercise 1
+ 2 files changed, 1 insertion(+), 11967 deletions(-)
+ delete mode 100644 cleaned-correspondence.csv
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+clare@clare-fun1:~/School/Week4$ cp index.txt cleaned-correspondence.csv
+clare@clare-fun1:~/School/Week4$ git add cleaned-correspondence.csv 
+clare@clare-fun1:~/School/Week4$ git commit
+[master 7a3fdb3] Actual Cleaned Correspondance (step 6, exercise 1)
+ 1 file changed, 11968 insertions(+)
+ create mode 100644 cleaned-correspondence.csv
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 8 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+clare@clare-fun1:~/School/Week4$ github push origin master
+No command 'github' found, did you mean:
+ Command 'git-hub' from package 'git-hub' (universe)
+github: command not found
+clare@clare-fun1:~/School/Week4$ git push origin master
+Username for 'https://github.com': claremaier
+Password for 'https://claremaier@github.com': 
+Counting objects: 21, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 139.51 KiB | 0 bytes/s, done.
+Total 21 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), completed with 1 local object.
+To https://github.com/claremaier/Week4
+   a8cb826..7a3fdb3  master -> master
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+clare@clare-fun1:~/School/Week4$ ls
+cleaned-correspondence.csv  index_backup.txt  index.txt.bk
+Exercise1Week2_Commands.md  index.txt	      README.md
+Exercise1Week4.md	    index.txt.bak     texas.txt
+clare@clare-fun1:~/School/Week4$ Exercise1Week4
+Exercise1Week4: command not found
+clare@clare-fun1:~/School/Week4$ nano Exercise1Week4.md
+clare@clare-fun1:~/School/Week4$ git ad
+git: 'ad' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	add
+	am
+clare@clare-fun1:~/School/Week4$ git add Exercise1Week.md
+fatal: pathspec 'Exercise1Week.md' did not match any files
+clare@clare-fun1:~/School/Week4$ git add Exercise1Week4.md 
+clare@clare-fun1:~/School/Week4$ git commit
+[master 7cb8597] Updated fail log Exercise 1 Week 4
+ 1 file changed, 13 insertions(+)
+clare@clare-fun1:~/School/Week4$ ^C
+clare@clare-fun1:~/School/Week4$ 
+
+**However, here is the history of the commands I ran recently - hopefully this helps**
+
+162  cd
+  163  cd School
+  164  ls
+  165  touch foo
+  166  rm foo
+  167  cd home
+  168  cd ..
+  169  pwd
+  170  ls
+  171  cd School
+  172  ls /run
+  173  ls /run/mount
+  174  ls /media
+  175  ls /media/clare/
+  176  pwd
+  177  touch Exercise1Week4.md
+  178  nano Exercise1Week4.md 
+  179  github add
+  180  git add
+  181  sudo apt install git
+  182  sudo apt-get upgrade
+  183  git
+  184  git clone https://github.com/claremaier/Week4/tree/master
+  185  git clone https://github.com/claremaier/Week4
+  186  ls
+  187  cd Week4
+  188  ls
+  189  mv Exercise1Week4
+  190  ls
+  191  cd ..
+  192  ls
+  193  mv Exercise1Week4.md Week4
+  194  ls
+  195  cd Week4
+  196  git add Exercise1Week4.md 
+  197  git status
+  198  git commit all
+  199  git commit --all
+  200  git commit Exercise1Week4.md 
+  201  ls
+  202  git config --global user.email "clare.m200@gmail.com"
+  203  git config --global user.name "clare"
+  204  git commit Exercise1Week4.md 
+  205  git commit -m "added Excercise1Week4"
+  206  git push origin master
+  207  git config --global user.name "Your Name"
+  208  history
+  209  clear
+  210  $ curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+  211  $ curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+  212  curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+  213  sudo apt install curl
+  214  curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+  215  nano texas.txt
+  216  nano texas.txt
+  217  ls
+  218  grep '\bto\b' texas.txt
+  219  run grep
+  220  sudo apt- get grep
+  221  sudo apt install grep
+  222  grep '\bto\b' texas.txt
+  223  grep '\bto\b'
+  224  \<to\>
+  225  grep \<to\> texas.txt
+  226  grep \<to\> texas.txt
+  227  cd Week4
+  228  ls
+  229  cd School
+  230  cd Week4
+  231  grep \<to\> texas.txt
+  232  grep '\bto\b' texas.txt
+  233  (.+\<to\>)
+  234  sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+  235  ls
+  236  nano texas.txt
+  237  nano texas.txt
+  238  nano texas.txt
+  239  \r\n[^~].+
+  241  \n[^~].+
+  242  nano texas.txt
+  243  $ grep '~' texas.txt > index.txt
+  244  nano texas.txr
+  245  nanp texas.txt
+  246  nano texas.txt
+  247  s/\n+/\n/g
+  248  \r\n[^~].+
+  249  vi 
+  250  grep '~' texas.txt > index.txt
+  251  ls
+  252  nano index.txt
+  253  git add --all
+  254  git status
+  255  git commit
+  256  git status
+  257  sed -r -i.bak (,)( [0-9]{4}.+)
+  258  git status
+  259  nano Exercise1Week2_Commands.md
+  260  nano Exercise1Week2_Commands.md
+  261  git status
+  262  git push origin master
+  263  git status
+  264  git add
+  265  git add all
+  266  git add --all
+  267  git status
+  268  git add
+  269  git commit
+  270  git status
+  271  git push origin master
+  272  git push origin master
+  273  git status
+  274  ls
+  275  cd Week4
+  276  ls
+  277  cd School
+  278  cd Week4
+  279  ls
+  280  nano index.txt 
+  281  cp index.txt{,.bk}
+  282  la
+  283  ls
+  284  (,)( [0-9]{4})(.+)
+  285  sed -r -i.bak 's/(,)([0-9]{4}(.+)/\2/g' index.txt
+  286  sed -r -i.bak 's/(,)([0-9]{4}(.+))/\2/g' index.txt
+  287  ls
+  288  nano index.txt.bk
+  289  git status
+  290  nano index.txt.bak 
+  291  sed -r -i.bak 's/(,)([0-9]{4}(.+))/\2/g' index.txt.bak 
+  292  nano index.txt.bak
+  293  git add --all
+  294  git commit
+  295  git status
+  296  nano index.txt.bak
+  297  , [0-9]{4}.+
+  298  (, [0-9]{4}.+)
+  299  /(, [0-9]{4}.+)/g
+  300  /("," [0-9]{4}.+)/g
+  301  ("," [0-9]{4}.+)
+  302  sed -r -i.bak 's/("," [0-9]{4}.+)/ index.text.bak2
+  303  q:
+  304  q
+  305  kill
+  306  ls
+  307  sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt
+  308  ls
+  309  git status
+  310  nano index.txt
+  311  git add --all
+  312  ls
+  313  git commit
+  314  git status
+  315  nano index.txt
+  316  nano index.txt
+  317  git status
+  318  git add
+  319  git add index.txt
+  320  git status
+  321  git commit
+  322  git status
+  323  nano index.txt
+  324  git add index.txt
+  325  git commit
+  326  git status
+  327  nano index.txt
+  328  grep -E ".+,.+,.+," index.txt
+  329  grep -E ".+,.+,.+" index.txt
+  330  cd Week4
+  331  cd School
+  332  cd Week4
+  333  ls
+  334  nano index.txt
+  335  grep -E ".+,.+,.+," index.txt
+  336  cp index.txt cleaned-correspondence.csv
+  337  ls
+  338  git add cleaned-correspondence.csv 
+  339  git commit
+  340  git status
+  341  git add -all
+  342  git add index_backup.txt 
+  343  git commit
+  344  git status
+  345  rm cleaned-correspondence.csv 
+  346  git status
+  347  nano index.txt
+  348  git add --all
+  349  git commit
+  350  git status
+  351  cp index.txt cleaned-correspondence.csv
+  352  git add cleaned-correspondence.csv 
+  353  git commit
+  354  git status
+  355  github push origin master
+  356  git push origin master
+  357  git status
+  358  ls
+  359  Exercise1Week4
+  360  nano Exercise1Week4.md
+  361  git ad
+  362  git add Exercise1Week.md
+  363  git add Exercise1Week4.md 
+  364  git commit
+  365  history
+clare@clare-fun1:~/School/Week4$ 
+
 
