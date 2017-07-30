@@ -1,1 +1,922 @@
 #These are the commands from Exercise 2 Week4
+
+**I have successfully installed java JRE, but am stuck at getting the google refine to properly install now**
+
+clare@clare-fun1:~$ tar xzf google-refine.tar.gz
+tar (child): google-refine.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+clare@clare-fun1:~$ cd google-refine
+bash: cd: google-refine: No such file or directory
+clare@clare-fun1:~$ tar xzf openrefine-linux-2.7.tar.gz
+tar (child): openrefine-linux-2.7.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+clare@clare-fun1:~$ tar xzf openrefine-linux-2.7.tar.gz cd openrefine-linux-2.7.tar.gz ./refine
+tar (child): openrefine-linux-2.7.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+clare@clare-fun1:~$ sudo apt install Java64bitJRE
+[sudo] password for clare: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package Java64bitJRE
+clare@clare-fun1:~$ pwd
+/home/clare
+clare@clare-fun1:~$ cd Downloads
+clare@clare-fun1:~/Downloads$ ls
+1102-3493-1-PB.pdf
+20150402_150137.jpg
+20150805_134844.jpg
+20150806_200325.jpg
+2016-Short-Answer-Questions.docx
+7585229625953146.pdf
+7627139826405933 (1).pdf
+7627139826405933.pdf
+8285391531162143.pdf
+Advent Posts.pub
+ANTH3510 - Final Assignment (1).docx
+ANTH3510 - Final Assignment.docx
+Ant Videos
+anyconnect-linux64-4.4.00243-core-vpn-webdeploy-k9.sh
+bash_logout
+Beethoven 5th symphony (MP3 download).mp3
+Canada Summary of Benefits Info (1).doc
+CasualtySearch_22_07_2017_01_46.csv
+Chapter 14 - de Groot.docx
+chrome-remote-desktop_current_amd64.deb
+Clare Maier Ottawa Intern_Sept 2016 (1).pdf
+Clare Maier Ottawa Intern_Sept 2016.pdf
+CODE5.mp3
+CONFIDENCIALIDAD, PRIVACIDAD Y SEGURIDAD #907.pdf
+CONFIDENTIALITY%2c PRIVACY & SECURITY- Policy #907.pdf
+cookies-1.jpg
+cool song.wav
+Desjardins_studentcare_health_generic.pdf
+dhbox-work-today.md
+dict-en.oxt
+Ditchfield_-_Cath_Ref___Renewal_.pdf
+doc.pdf
+edh (1).csv
+edh.csv
+ET Droids T-Shirt.png
+Ethiopian Jews Presentation March 21.pptx
+ExerciseOne-July142017 (1).md
+ExerciseOne-July142017 (2).md
+ExerciseOne-July142017 (3).md
+ExerciseOne-July142017.md
+ExerciseOne-July142017.md.html
+Falasha_migration2.jpg
+Figlin Spreadsheet - edh database downloads.csv
+FPs invite EN.pdf
+GatheringBlue9780547345789.epub
+GiverQuartetOmnibus9780544453746.acsm
+Gleason Catholic Reformation.pdf
+Honours Policy.pdf
+How to Login to the MCC WX - First 30 Days [v2].docx
+hypothesis_aggregator-master (1).zip
+hypothesis_aggregator-master.zip
+Information Classifier-55893 (1).pdf
+Information Classifier-55893.pdf
+Inquisition trial of Pedro de Villegas (1).pdf
+Inquisition trial of Pedro de Villegas.pdf
+jre-8u144-linux-i586.tar.gz
+keepfolderslast.zip
+KMB Questionnaire - Youth and C&C.docx
+Last-Days-of-Pompeii.epub
+Lec 1.pptx
+Les-Miserables.mobi
+libdvdcss2_1.2.13-0_amd64.deb
++Maier Anth 2001 14-15 Reading Response #4.docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm (1).docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm.docx
++Maier Clare_32966676_assignsubmission_file_Maier Anth 2001 14-15 Final.docx
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46 (1).csv
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46.csv
+michigan-snowshoe-34110.jpg
+module3-wranglingdata-master
+module3-wranglingdata-master.zip
+More tents.jpg
+mycardsback.htm
+mycardsfront.htm
+nativity 1.png
+nativity(1).png
+nativity(2).png
+nativity.png
+nativity W1Thurs.png
+nativity W1Thurs.xcf
+nativity.xcf
+November 15, 2015.pdf
+November 22, 2015_0.pdf
+NSLSC-Web-T4A2015.pdf
+oliver_twist_th_librivox.zip
+ontariotopbabynames_male_1917-2013_english.csv
+openrefine-linux-2.7.tar.gz
+out.csv
+out.pdf
+output.txt
+PENNER_ISAAC_ABRAHAM.pdf
+pg41360-images.epub
+PHOTO_20150923_202803.jpg
+Photos_downloaded_by_AirDroid.zip
+Please_sign_our_confidentiality_policy (1).zip
+Please_sign_our_confidentiality_policy.zip
+Policy Analyst-55804.pdf
+pptc153.pdf
+qrcode.31816551.png
+qr_code.zip
+Quilts.jpg
+Research Advocacy Intern-fall 2016 posting.docx
+ServiceOntarioConfirmationRegistrationReceipt.pdf
+shepherd.png
+shepherd.xcf
+skype-4.3.0.37-suse.i586.rpm
+skypeforlinux-64.deb
+skype.ymp
+static_qr_code_without_logo.jpg
+Strawberry Pie.jpg
+Study maps - reformation-1.pdf
+TaxForms-1
+TheNileDiary-0.1.3-release (1).apk
+TheNileDiary-0.1.3-release.apk
+todayscommands (1).docx
+todayscommands (2).docx
+todayscommands.docx
+todayscommands.html
+top (1)
+W3 Tuesday.jpeg
+W3 Tuesday.png
+War-of-the-Worlds-by-H-G-Wells.epub
+White-Marble-Mauseleom-of-Taj-Mahal-Coloring-Page.jpg
+zoom_2.0.52458.0531_openSUSE_x86_64.rpm
+Zotero-5.0.3_linux-x86_64.tar.bz2
+Zotero_linux-x86_64
+clare@clare-fun1:~/Downloads$ mv jre-8u144-linux-i586.tar.gz 
+mv: missing destination file operand after 'jre-8u144-linux-i586.tar.gz'
+Try 'mv --help' for more information.
+clare@clare-fun1:~/Downloads$ mv jre-8u144-linux-i586.tar.gz Home
+clare@clare-fun1:~/Downloads$ cd Home
+bash: cd: Home: Not a directory
+clare@clare-fun1:~/Downloads$ ls
+1102-3493-1-PB.pdf
+20150402_150137.jpg
+20150805_134844.jpg
+20150806_200325.jpg
+2016-Short-Answer-Questions.docx
+7585229625953146.pdf
+7627139826405933 (1).pdf
+7627139826405933.pdf
+8285391531162143.pdf
+Advent Posts.pub
+ANTH3510 - Final Assignment (1).docx
+ANTH3510 - Final Assignment.docx
+Ant Videos
+anyconnect-linux64-4.4.00243-core-vpn-webdeploy-k9.sh
+bash_logout
+Beethoven 5th symphony (MP3 download).mp3
+Canada Summary of Benefits Info (1).doc
+CasualtySearch_22_07_2017_01_46.csv
+Chapter 14 - de Groot.docx
+chrome-remote-desktop_current_amd64.deb
+Clare Maier Ottawa Intern_Sept 2016 (1).pdf
+Clare Maier Ottawa Intern_Sept 2016.pdf
+CODE5.mp3
+CONFIDENCIALIDAD, PRIVACIDAD Y SEGURIDAD #907.pdf
+CONFIDENTIALITY%2c PRIVACY & SECURITY- Policy #907.pdf
+cookies-1.jpg
+cool song.wav
+Desjardins_studentcare_health_generic.pdf
+dhbox-work-today.md
+dict-en.oxt
+Ditchfield_-_Cath_Ref___Renewal_.pdf
+doc.pdf
+edh (1).csv
+edh.csv
+ET Droids T-Shirt.png
+Ethiopian Jews Presentation March 21.pptx
+ExerciseOne-July142017 (1).md
+ExerciseOne-July142017 (2).md
+ExerciseOne-July142017 (3).md
+ExerciseOne-July142017.md
+ExerciseOne-July142017.md.html
+Falasha_migration2.jpg
+Figlin Spreadsheet - edh database downloads.csv
+FPs invite EN.pdf
+GatheringBlue9780547345789.epub
+GiverQuartetOmnibus9780544453746.acsm
+Gleason Catholic Reformation.pdf
+Home
+Honours Policy.pdf
+How to Login to the MCC WX - First 30 Days [v2].docx
+hypothesis_aggregator-master (1).zip
+hypothesis_aggregator-master.zip
+Information Classifier-55893 (1).pdf
+Information Classifier-55893.pdf
+Inquisition trial of Pedro de Villegas (1).pdf
+Inquisition trial of Pedro de Villegas.pdf
+keepfolderslast.zip
+KMB Questionnaire - Youth and C&C.docx
+Last-Days-of-Pompeii.epub
+Lec 1.pptx
+Les-Miserables.mobi
+libdvdcss2_1.2.13-0_amd64.deb
++Maier Anth 2001 14-15 Reading Response #4.docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm (1).docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm.docx
++Maier Clare_32966676_assignsubmission_file_Maier Anth 2001 14-15 Final.docx
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46 (1).csv
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46.csv
+michigan-snowshoe-34110.jpg
+module3-wranglingdata-master
+module3-wranglingdata-master.zip
+More tents.jpg
+mycardsback.htm
+mycardsfront.htm
+nativity 1.png
+nativity(1).png
+nativity(2).png
+nativity.png
+nativity W1Thurs.png
+nativity W1Thurs.xcf
+nativity.xcf
+November 15, 2015.pdf
+November 22, 2015_0.pdf
+NSLSC-Web-T4A2015.pdf
+oliver_twist_th_librivox.zip
+ontariotopbabynames_male_1917-2013_english.csv
+openrefine-linux-2.7.tar.gz
+out.csv
+out.pdf
+output.txt
+PENNER_ISAAC_ABRAHAM.pdf
+pg41360-images.epub
+PHOTO_20150923_202803.jpg
+Photos_downloaded_by_AirDroid.zip
+Please_sign_our_confidentiality_policy (1).zip
+Please_sign_our_confidentiality_policy.zip
+Policy Analyst-55804.pdf
+pptc153.pdf
+qrcode.31816551.png
+qr_code.zip
+Quilts.jpg
+Research Advocacy Intern-fall 2016 posting.docx
+ServiceOntarioConfirmationRegistrationReceipt.pdf
+shepherd.png
+shepherd.xcf
+skype-4.3.0.37-suse.i586.rpm
+skypeforlinux-64.deb
+skype.ymp
+static_qr_code_without_logo.jpg
+Strawberry Pie.jpg
+Study maps - reformation-1.pdf
+TaxForms-1
+TheNileDiary-0.1.3-release (1).apk
+TheNileDiary-0.1.3-release.apk
+todayscommands (1).docx
+todayscommands (2).docx
+todayscommands.docx
+todayscommands.html
+top (1)
+W3 Tuesday.jpeg
+W3 Tuesday.png
+War-of-the-Worlds-by-H-G-Wells.epub
+White-Marble-Mauseleom-of-Taj-Mahal-Coloring-Page.jpg
+zoom_2.0.52458.0531_openSUSE_x86_64.rpm
+Zotero-5.0.3_linux-x86_64.tar.bz2
+Zotero_linux-x86_64
+clare@clare-fun1:~/Downloads$ cd Home
+bash: cd: Home: Not a directory
+clare@clare-fun1:~/Downloads$ mkdir java
+clare@clare-fun1:~/Downloads$ cd java
+clare@clare-fun1:~/Downloads/java$ cd 
+clare@clare-fun1:~$ cd Downloads/
+clare@clare-fun1:~/Downloads$ cd java
+clare@clare-fun1:~/Downloads/java$ cd
+clare@clare-fun1:~$ cd Downloads/
+clare@clare-fun1:~/Downloads$ ls
+1102-3493-1-PB.pdf
+20150402_150137.jpg
+20150805_134844.jpg
+20150806_200325.jpg
+2016-Short-Answer-Questions.docx
+7585229625953146.pdf
+7627139826405933 (1).pdf
+7627139826405933.pdf
+8285391531162143.pdf
+Advent Posts.pub
+ANTH3510 - Final Assignment (1).docx
+ANTH3510 - Final Assignment.docx
+Ant Videos
+anyconnect-linux64-4.4.00243-core-vpn-webdeploy-k9.sh
+bash_logout
+Beethoven 5th symphony (MP3 download).mp3
+Canada Summary of Benefits Info (1).doc
+CasualtySearch_22_07_2017_01_46.csv
+Chapter 14 - de Groot.docx
+chrome-remote-desktop_current_amd64.deb
+Clare Maier Ottawa Intern_Sept 2016 (1).pdf
+Clare Maier Ottawa Intern_Sept 2016.pdf
+CODE5.mp3
+CONFIDENCIALIDAD, PRIVACIDAD Y SEGURIDAD #907.pdf
+CONFIDENTIALITY%2c PRIVACY & SECURITY- Policy #907.pdf
+cookies-1.jpg
+cool song.wav
+Desjardins_studentcare_health_generic.pdf
+dhbox-work-today.md
+dict-en.oxt
+Ditchfield_-_Cath_Ref___Renewal_.pdf
+doc.pdf
+edh (1).csv
+edh.csv
+ET Droids T-Shirt.png
+Ethiopian Jews Presentation March 21.pptx
+ExerciseOne-July142017 (1).md
+ExerciseOne-July142017 (2).md
+ExerciseOne-July142017 (3).md
+ExerciseOne-July142017.md
+ExerciseOne-July142017.md.html
+Falasha_migration2.jpg
+Figlin Spreadsheet - edh database downloads.csv
+FPs invite EN.pdf
+GatheringBlue9780547345789.epub
+GiverQuartetOmnibus9780544453746.acsm
+Gleason Catholic Reformation.pdf
+Home
+Honours Policy.pdf
+How to Login to the MCC WX - First 30 Days [v2].docx
+hypothesis_aggregator-master (1).zip
+hypothesis_aggregator-master.zip
+Information Classifier-55893 (1).pdf
+Information Classifier-55893.pdf
+Inquisition trial of Pedro de Villegas (1).pdf
+Inquisition trial of Pedro de Villegas.pdf
+java
+jre-8u144-linux-i586.tar.gz
+keepfolderslast.zip
+KMB Questionnaire - Youth and C&C.docx
+Last-Days-of-Pompeii.epub
+Lec 1.pptx
+Les-Miserables.mobi
+libdvdcss2_1.2.13-0_amd64.deb
++Maier Anth 2001 14-15 Reading Response #4.docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm (1).docx
++Maier Clare_25009646_assignsubmission_file_Maier Anth 2001 14-15 Midterm.docx
++Maier Clare_32966676_assignsubmission_file_Maier Anth 2001 14-15 Final.docx
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46 (1).csv
+Maier War Dead WW2 - CasualtySearch_22_07_2017_01_46.csv
+michigan-snowshoe-34110.jpg
+module3-wranglingdata-master
+module3-wranglingdata-master.zip
+More tents.jpg
+mycardsback.htm
+mycardsfront.htm
+nativity 1.png
+nativity(1).png
+nativity(2).png
+nativity.png
+nativity W1Thurs.png
+nativity W1Thurs.xcf
+nativity.xcf
+November 15, 2015.pdf
+November 22, 2015_0.pdf
+NSLSC-Web-T4A2015.pdf
+oliver_twist_th_librivox.zip
+ontariotopbabynames_male_1917-2013_english.csv
+openrefine-linux-2.7.tar.gz
+out.csv
+out.pdf
+output.txt
+PENNER_ISAAC_ABRAHAM.pdf
+pg41360-images.epub
+PHOTO_20150923_202803.jpg
+Photos_downloaded_by_AirDroid.zip
+Please_sign_our_confidentiality_policy (1).zip
+Please_sign_our_confidentiality_policy.zip
+Policy Analyst-55804.pdf
+pptc153.pdf
+qrcode.31816551.png
+qr_code.zip
+Quilts.jpg
+Research Advocacy Intern-fall 2016 posting.docx
+ServiceOntarioConfirmationRegistrationReceipt.pdf
+shepherd.png
+shepherd.xcf
+skype-4.3.0.37-suse.i586.rpm
+skypeforlinux-64.deb
+skype.ymp
+static_qr_code_without_logo.jpg
+Strawberry Pie.jpg
+Study maps - reformation-1.pdf
+TaxForms-1
+TheNileDiary-0.1.3-release (1).apk
+TheNileDiary-0.1.3-release.apk
+todayscommands (1).docx
+todayscommands (2).docx
+todayscommands.docx
+todayscommands.html
+top (1)
+W3 Tuesday.jpeg
+W3 Tuesday.png
+War-of-the-Worlds-by-H-G-Wells.epub
+White-Marble-Mauseleom-of-Taj-Mahal-Coloring-Page.jpg
+zoom_2.0.52458.0531_openSUSE_x86_64.rpm
+Zotero-5.0.3_linux-x86_64.tar.bz2
+Zotero_linux-x86_64
+clare@clare-fun1:~/Downloads$ mv jre-8u144-linux-i586.tar.gz java
+clare@clare-fun1:~/Downloads$ cd java
+clare@clare-fun1:~/Downloads/java$ ls
+jre-8u144-linux-i586.tar.gz
+clare@clare-fun1:~/Downloads/java$ tar zxvf jre-8u144-linux-i586.tar.gz 
+jre1.8.0_144/
+jre1.8.0_144/THIRDPARTYLICENSEREADME-JAVAFX.txt
+jre1.8.0_144/THIRDPARTYLICENSEREADME.txt
+jre1.8.0_144/plugin/
+jre1.8.0_144/plugin/desktop/
+jre1.8.0_144/plugin/desktop/sun_java.png
+jre1.8.0_144/plugin/desktop/sun_java.desktop
+jre1.8.0_144/Welcome.html
+jre1.8.0_144/COPYRIGHT
+jre1.8.0_144/lib/
+jre1.8.0_144/lib/psfontj2d.properties
+jre1.8.0_144/lib/flavormap.properties
+jre1.8.0_144/lib/jfxswt.jar
+jre1.8.0_144/lib/hijrah-config-umalqura.properties
+jre1.8.0_144/lib/management-agent.jar
+jre1.8.0_144/lib/currency.data
+jre1.8.0_144/lib/deploy/
+jre1.8.0_144/lib/deploy/splash_11-lic.gif
+jre1.8.0_144/lib/deploy/messages_pt_BR.properties
+jre1.8.0_144/lib/deploy/messages_zh_TW.properties
+jre1.8.0_144/lib/deploy/messages.properties
+jre1.8.0_144/lib/deploy/messages_sv.properties
+jre1.8.0_144/lib/deploy/MixedCodeMainDialog.ui
+jre1.8.0_144/lib/deploy/messages_zh_HK.properties
+jre1.8.0_144/lib/deploy/messages_es.properties
+jre1.8.0_144/lib/deploy/cautionshield.icns
+jre1.8.0_144/lib/deploy/messages_ja.properties
+jre1.8.0_144/lib/deploy/messages_fr.properties
+jre1.8.0_144/lib/deploy/splash@2x.gif
+jre1.8.0_144/lib/deploy/messages_it.properties
+jre1.8.0_144/lib/deploy/ffjcext.zip
+jre1.8.0_144/lib/deploy/mixcode_s.png
+jre1.8.0_144/lib/deploy/messages_zh_CN.properties
+jre1.8.0_144/lib/deploy/MixedCodeMainDialogJs.ui
+jre1.8.0_144/lib/deploy/java-icon.ico
+jre1.8.0_144/lib/deploy/splash_11@2x-lic.gif
+jre1.8.0_144/lib/deploy/messages_de.properties
+jre1.8.0_144/lib/deploy/messages_ko.properties
+jre1.8.0_144/lib/deploy/splash.gif
+jre1.8.0_144/lib/jfr/
+jre1.8.0_144/lib/jfr/profile.jfc
+jre1.8.0_144/lib/jfr/default.jfc
+jre1.8.0_144/lib/locale/
+jre1.8.0_144/lib/locale/pt_BR/
+jre1.8.0_144/lib/locale/pt_BR/LC_MESSAGES/
+jre1.8.0_144/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/zh_TW.BIG5/
+jre1.8.0_144/lib/locale/zh_TW.BIG5/LC_MESSAGES/
+jre1.8.0_144/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/zh_TW/
+jre1.8.0_144/lib/locale/zh_TW/LC_MESSAGES/
+jre1.8.0_144/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/es/
+jre1.8.0_144/lib/locale/es/LC_MESSAGES/
+jre1.8.0_144/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/ja/
+jre1.8.0_144/lib/locale/ja/LC_MESSAGES/
+jre1.8.0_144/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/it/
+jre1.8.0_144/lib/locale/it/LC_MESSAGES/
+jre1.8.0_144/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/zh.GBK/
+jre1.8.0_144/lib/locale/zh.GBK/LC_MESSAGES/
+jre1.8.0_144/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/sv/
+jre1.8.0_144/lib/locale/sv/LC_MESSAGES/
+jre1.8.0_144/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/fr/
+jre1.8.0_144/lib/locale/fr/LC_MESSAGES/
+jre1.8.0_144/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/zh/
+jre1.8.0_144/lib/locale/zh/LC_MESSAGES/
+jre1.8.0_144/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/de/
+jre1.8.0_144/lib/locale/de/LC_MESSAGES/
+jre1.8.0_144/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/zh_HK.BIG5HK/
+jre1.8.0_144/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/
+jre1.8.0_144/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/ko.UTF-8/
+jre1.8.0_144/lib/locale/ko.UTF-8/LC_MESSAGES/
+jre1.8.0_144/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/locale/ko/
+jre1.8.0_144/lib/locale/ko/LC_MESSAGES/
+jre1.8.0_144/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo
+jre1.8.0_144/lib/fontconfig.SuSE.11.properties.src
+jre1.8.0_144/lib/fontconfig.SuSE.10.properties.src
+jre1.8.0_144/lib/plugin.jar
+jre1.8.0_144/lib/jsse.jar
+jre1.8.0_144/lib/tzdb.dat
+jre1.8.0_144/lib/jvm.hprof.txt
+jre1.8.0_144/lib/fonts/
+jre1.8.0_144/lib/fonts/LucidaBrightRegular.ttf
+jre1.8.0_144/lib/fonts/LucidaTypewriterBold.ttf
+jre1.8.0_144/lib/fonts/LucidaTypewriterRegular.ttf
+jre1.8.0_144/lib/fonts/LucidaBrightDemiBold.ttf
+jre1.8.0_144/lib/fonts/LucidaSansDemiBold.ttf
+jre1.8.0_144/lib/fonts/LucidaSansRegular.ttf
+jre1.8.0_144/lib/fonts/LucidaBrightItalic.ttf
+jre1.8.0_144/lib/fonts/fonts.dir
+jre1.8.0_144/lib/fonts/LucidaBrightDemiItalic.ttf
+jre1.8.0_144/lib/fontconfig.properties.src
+jre1.8.0_144/lib/content-types.properties
+jre1.8.0_144/lib/desktop/
+jre1.8.0_144/lib/desktop/applications/
+jre1.8.0_144/lib/desktop/applications/sun-java.desktop
+jre1.8.0_144/lib/desktop/applications/sun-javaws.desktop
+jre1.8.0_144/lib/desktop/applications/sun_java.desktop
+jre1.8.0_144/lib/desktop/mime/
+jre1.8.0_144/lib/desktop/mime/packages/
+jre1.8.0_144/lib/desktop/mime/packages/x-java-jnlp-file.xml
+jre1.8.0_144/lib/desktop/mime/packages/x-java-archive.xml
+jre1.8.0_144/lib/desktop/icons/
+jre1.8.0_144/lib/desktop/icons/LowContrast/
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/mimetypes/
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/apps/
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/48x48/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/mimetypes/
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/apps/
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/LowContrast/16x16/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/hicolor/
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/mimetypes/
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/apps/
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/hicolor/48x48/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/mimetypes/
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/apps/
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/hicolor/16x16/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/mimetypes/
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/apps/
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/48x48/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/mimetypes/
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/apps/
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/HighContrast/16x16/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/apps/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-jcontrol.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-text-x-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/apps/
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-java.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-javaws.png
+jre1.8.0_144/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-jcontrol.png
+jre1.8.0_144/lib/fontconfig.SuSE.11.bfc
+jre1.8.0_144/lib/sound.properties
+jre1.8.0_144/lib/jfr.jar
+jre1.8.0_144/lib/psfont.properties.ja
+jre1.8.0_144/lib/jce.jar
+jre1.8.0_144/lib/fontconfig.RedHat.6.properties.src
+jre1.8.0_144/lib/javafx.properties
+jre1.8.0_144/lib/deploy.jar
+jre1.8.0_144/lib/fontconfig.RedHat.5.properties.src
+jre1.8.0_144/lib/meta-index
+jre1.8.0_144/lib/charsets.jar
+jre1.8.0_144/lib/applet/
+jre1.8.0_144/lib/classlist
+jre1.8.0_144/lib/fontconfig.SuSE.10.bfc
+jre1.8.0_144/lib/logging.properties
+jre1.8.0_144/lib/net.properties
+jre1.8.0_144/lib/resources.jar
+jre1.8.0_144/lib/security/
+jre1.8.0_144/lib/security/local_policy.jar
+jre1.8.0_144/lib/security/trusted.libraries
+jre1.8.0_144/lib/security/javaws.policy
+jre1.8.0_144/lib/security/blacklist
+jre1.8.0_144/lib/security/cacerts
+jre1.8.0_144/lib/security/blacklisted.certs
+jre1.8.0_144/lib/security/java.policy
+jre1.8.0_144/lib/security/US_export_policy.jar
+jre1.8.0_144/lib/security/java.security
+jre1.8.0_144/lib/javaws.jar
+jre1.8.0_144/lib/fontconfig.Turbo.bfc
+jre1.8.0_144/lib/fontconfig.Turbo.properties.src
+jre1.8.0_144/lib/rt.jar
+jre1.8.0_144/lib/ext/
+jre1.8.0_144/lib/ext/dnsns.jar
+jre1.8.0_144/lib/ext/localedata.jar
+jre1.8.0_144/lib/ext/jaccess.jar
+jre1.8.0_144/lib/ext/sunjce_provider.jar
+jre1.8.0_144/lib/ext/sunpkcs11.jar
+jre1.8.0_144/lib/ext/sunec.jar
+jre1.8.0_144/lib/ext/cldrdata.jar
+jre1.8.0_144/lib/ext/zipfs.jar
+jre1.8.0_144/lib/ext/meta-index
+jre1.8.0_144/lib/ext/nashorn.jar
+jre1.8.0_144/lib/ext/jfxrt.jar
+jre1.8.0_144/lib/images/
+jre1.8.0_144/lib/images/cursors/
+jre1.8.0_144/lib/images/cursors/motif_CopyNoDrop32x32.gif
+jre1.8.0_144/lib/images/cursors/invalid32x32.gif
+jre1.8.0_144/lib/images/cursors/motif_MoveDrop32x32.gif
+jre1.8.0_144/lib/images/cursors/cursors.properties
+jre1.8.0_144/lib/images/cursors/motif_CopyDrop32x32.gif
+jre1.8.0_144/lib/images/cursors/motif_LinkDrop32x32.gif
+jre1.8.0_144/lib/images/cursors/motif_MoveNoDrop32x32.gif
+jre1.8.0_144/lib/images/cursors/motif_LinkNoDrop32x32.gif
+jre1.8.0_144/lib/images/icons/
+jre1.8.0_144/lib/images/icons/sun-java_HighContrast.png
+jre1.8.0_144/lib/images/icons/sun-java.png
+jre1.8.0_144/lib/images/icons/sun-java_LowContrast.png
+jre1.8.0_144/lib/images/icons/sun-java_HighContrastInverse.png
+jre1.8.0_144/lib/jexec
+jre1.8.0_144/lib/calendars.properties
+jre1.8.0_144/lib/cmm/
+jre1.8.0_144/lib/cmm/PYCC.pf
+jre1.8.0_144/lib/cmm/GRAY.pf
+jre1.8.0_144/lib/cmm/sRGB.pf
+jre1.8.0_144/lib/cmm/LINEAR_RGB.pf
+jre1.8.0_144/lib/cmm/CIEXYZ.pf
+jre1.8.0_144/lib/fontconfig.RedHat.5.bfc
+jre1.8.0_144/lib/fontconfig.RedHat.6.bfc
+jre1.8.0_144/lib/management/
+jre1.8.0_144/lib/management/jmxremote.password.template
+jre1.8.0_144/lib/management/jmxremote.access
+jre1.8.0_144/lib/management/snmp.acl.template
+jre1.8.0_144/lib/management/management.properties
+jre1.8.0_144/lib/i386/
+jre1.8.0_144/lib/i386/libjava.so
+jre1.8.0_144/lib/i386/libjsound.so
+jre1.8.0_144/lib/i386/libjavafx_iio.so
+jre1.8.0_144/lib/i386/libnpt.so
+jre1.8.0_144/lib/i386/libjsig.so
+jre1.8.0_144/lib/i386/libnet.so
+jre1.8.0_144/lib/i386/libprism_es2.so
+jre1.8.0_144/lib/i386/libawt.so
+jre1.8.0_144/lib/i386/libjavafx_font_t2k.so
+jre1.8.0_144/lib/i386/libj2pkcs11.so
+jre1.8.0_144/lib/i386/libavplugin-55.so
+jre1.8.0_144/lib/i386/libjsoundalsa.so
+jre1.8.0_144/lib/i386/server/
+jre1.8.0_144/lib/i386/server/libjsig.so
+jre1.8.0_144/lib/i386/server/libjvm.so
+jre1.8.0_144/lib/i386/server/Xusage.txt
+jre1.8.0_144/lib/i386/libhprof.so
+jre1.8.0_144/lib/i386/libprism_sw.so
+jre1.8.0_144/lib/i386/libkcms.so
+jre1.8.0_144/lib/i386/libjavafx_font_freetype.so
+jre1.8.0_144/lib/i386/libmanagement.so
+jre1.8.0_144/lib/i386/libfxplugins.so
+jre1.8.0_144/lib/i386/libgstreamer-lite.so
+jre1.8.0_144/lib/i386/libavplugin-56.so
+jre1.8.0_144/lib/i386/libjavafx_font_pango.so
+jre1.8.0_144/lib/i386/libawt_headless.so
+jre1.8.0_144/lib/i386/libfontmanager.so
+jre1.8.0_144/lib/i386/libj2pcsc.so
+jre1.8.0_144/lib/i386/libnio.so
+jre1.8.0_144/lib/i386/libjava_crw_demo.so
+jre1.8.0_144/lib/i386/libdcpr.so
+jre1.8.0_144/lib/i386/libzip.so
+jre1.8.0_144/lib/i386/libjdwp.so
+jre1.8.0_144/lib/i386/libjpeg.so
+jre1.8.0_144/lib/i386/libawt_xawt.so
+jre1.8.0_144/lib/i386/libsplashscreen.so
+jre1.8.0_144/lib/i386/libt2k.so
+jre1.8.0_144/lib/i386/libnpjp2.so
+jre1.8.0_144/lib/i386/libdt_socket.so
+jre1.8.0_144/lib/i386/jli/
+jre1.8.0_144/lib/i386/jli/libjli.so
+jre1.8.0_144/lib/i386/libsctp.so
+jre1.8.0_144/lib/i386/liblcms.so
+jre1.8.0_144/lib/i386/libavplugin-ffmpeg-56.so
+jre1.8.0_144/lib/i386/libjawt.so
+jre1.8.0_144/lib/i386/libjfxwebkit.so
+jre1.8.0_144/lib/i386/libresource.so
+jre1.8.0_144/lib/i386/libprism_common.so
+jre1.8.0_144/lib/i386/client/
+jre1.8.0_144/lib/i386/client/libjsig.so
+jre1.8.0_144/lib/i386/client/libjvm.so
+jre1.8.0_144/lib/i386/client/Xusage.txt
+jre1.8.0_144/lib/i386/libunpack.so
+jre1.8.0_144/lib/i386/libjfxmedia.so
+jre1.8.0_144/lib/i386/libjaas_unix.so
+jre1.8.0_144/lib/i386/libmlib_image.so
+jre1.8.0_144/lib/i386/libjsdt.so
+jre1.8.0_144/lib/i386/libavplugin-53.so
+jre1.8.0_144/lib/i386/libglass.so
+jre1.8.0_144/lib/i386/libjfr.so
+jre1.8.0_144/lib/i386/libjavafx_font.so
+jre1.8.0_144/lib/i386/libbci.so
+jre1.8.0_144/lib/i386/libinstrument.so
+jre1.8.0_144/lib/i386/libdeploy.so
+jre1.8.0_144/lib/i386/jvm.cfg
+jre1.8.0_144/lib/i386/libsunec.so
+jre1.8.0_144/lib/i386/libavplugin-54.so
+jre1.8.0_144/lib/i386/libdecora_sse.so
+jre1.8.0_144/lib/i386/libj2gss.so
+jre1.8.0_144/lib/i386/libverify.so
+jre1.8.0_144/lib/oblique-fonts/
+jre1.8.0_144/lib/oblique-fonts/LucidaSansDemiOblique.ttf
+jre1.8.0_144/lib/oblique-fonts/LucidaSansOblique.ttf
+jre1.8.0_144/lib/oblique-fonts/LucidaTypewriterOblique.ttf
+jre1.8.0_144/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf
+jre1.8.0_144/lib/oblique-fonts/fonts.dir
+jre1.8.0_144/lib/fontconfig.bfc
+jre1.8.0_144/man/
+jre1.8.0_144/man/ja
+jre1.8.0_144/man/man1/
+jre1.8.0_144/man/man1/servertool.1
+jre1.8.0_144/man/man1/java.1
+jre1.8.0_144/man/man1/keytool.1
+jre1.8.0_144/man/man1/javaws.1
+jre1.8.0_144/man/man1/pack200.1
+jre1.8.0_144/man/man1/rmid.1
+jre1.8.0_144/man/man1/unpack200.1
+jre1.8.0_144/man/man1/policytool.1
+jre1.8.0_144/man/man1/orbd.1
+jre1.8.0_144/man/man1/jjs.1
+jre1.8.0_144/man/man1/rmiregistry.1
+jre1.8.0_144/man/man1/tnameserv.1
+jre1.8.0_144/man/ja_JP.UTF-8/
+jre1.8.0_144/man/ja_JP.UTF-8/man1/
+jre1.8.0_144/man/ja_JP.UTF-8/man1/servertool.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/java.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/keytool.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/javaws.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/pack200.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/rmid.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/unpack200.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/policytool.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/orbd.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/jjs.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/rmiregistry.1
+jre1.8.0_144/man/ja_JP.UTF-8/man1/tnameserv.1
+jre1.8.0_144/README
+jre1.8.0_144/release
+jre1.8.0_144/LICENSE
+jre1.8.0_144/bin/
+jre1.8.0_144/bin/java
+jre1.8.0_144/bin/jjs
+jre1.8.0_144/bin/javaws
+jre1.8.0_144/bin/rmid
+jre1.8.0_144/bin/policytool
+jre1.8.0_144/bin/servertool
+jre1.8.0_144/bin/unpack200
+jre1.8.0_144/bin/orbd
+jre1.8.0_144/bin/ControlPanel
+jre1.8.0_144/bin/jcontrol
+jre1.8.0_144/bin/tnameserv
+jre1.8.0_144/bin/pack200
+jre1.8.0_144/bin/keytool
+jre1.8.0_144/bin/rmiregistry
+clare@clare-fun1:~/Downloads/java$ ls
+jre1.8.0_144  jre-8u144-linux-i586.tar.gz
+clare@clare-fun1:~/Downloads/java$ cd Downloads
+bash: cd: Downloads: No such file or directory
+clare@clare-fun1:~/Downloads/java$ cd
+clare@clare-fun1:~$ Downloads/
+bash: Downloads/: Is a directory
+clare@clare-fun1:~$ ls
+bin
+brightness
+Calibre Library
+cinnamon rolls recipe.png
+clare10upback100.1.pdf
+clare10upback100.pdf
+clare10upbacks.1.pdf
+clare10upbacks-page02.svg
+clare10upbacks.pdf
+clare-10up-card-page001.svg
+clare-10up-card-page011.svg
+Clare Maier Coop Report.docx
+Clare Maier Coop Report draft1.docx
+Desktop
+Documents
+done.pdf
+Downloads
+DSCN0883.JPG
+image4214.png
+Lec 1b.odp
+Markdown Work
+mla.csl
+Module2 Exercise1 Command line
+Music
+my-Twarc Clare info
+Online July 26.odt
+out.png
+package-signing-key.pub
+PDf
+Pictures
+Public
+public_html
+School
+tablegrace.odt
+Templates
+Thank you letter to INAC Litigation Branch.docx
+Videos
+W1 Thursday.jpeg
+W2 Tuesday.jpeg
+W2 Tuesday.svg
+Wallpapers
+Week2Exercise5 Commands and faillog
+Week3.odt
+clare@clare-fun1:~$ Downloads
+Downloads: command not found
+clare@clare-fun1:~$ cd Downloads/
+clare@clare-fun1:~/Downloads$ tar xzf openrefine-linux-2.7.tar.gz 
+clare@clare-fun1:~/Downloads$ cd openrefine-
+bash: cd: openrefine-: No such file or directory
+clare@clare-fun1:~/Downloads$ cd openrefine-linux-2.7.tar.gz 
+bash: cd: openrefine-linux-2.7.tar.gz: Not a directory
+clare@clare-fun1:~/Downloads$ mkdir google-refine
+clare@clare-fun1:~/Downloads$ cd google-refine/
+clare@clare-fun1:~/Downloads/google-refine$ ./refine
+bash: ./refine: No such file or directory
+clare@clare-fun1:~/Downloads/google-refine$ cd
+clare@clare-fun1:~$ cd School
+clare@clare-fun1:~/School$ ls
+Exercise1Week4.md  Week4
+clare@clare-fun1:~/School$ nano Exercise2Week4_Commands
+clare@clare-fun1:~/School$ git status
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+clare@clare-fun1:~/School$ mv Exercise2Week4_Commands Week4
+clare@clare-fun1:~/School$ ls
+Exercise1Week4.md  Week4
+clare@clare-fun1:~/School$ cd Week4
+clare@clare-fun1:~/School/Week4$ ls
+cleaned-correspondence.csv  index_backup.txt  README.md
+Exercise1Week2_Commands.md  index.txt	      texas.txt
+Exercise1Week4.md	    index.txt.bak
+Exercise2Week4_Commands     index.txt.bk
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Exercise2Week4_Commands
+
+nothing added to commit but untracked files present (use "git add" to track)
+clare@clare-fun1:~/School/Week4$ git add Exercise2Week4_Commands 
+clare@clare-fun1:~/School/Week4$ git commit
+[master 1f673a3] Command line for Exercise 2, Week4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Exercise2Week4_Commands
+clare@clare-fun1:~/School/Week4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+clare@clare-fun1:~/School/Week4$ ^C
+clare@clare-fun1:~/School/Week4$ 
+

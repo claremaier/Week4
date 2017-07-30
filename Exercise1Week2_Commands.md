@@ -8325,4 +8325,6 @@ clare@clare-fun1:~/School/Week4$
   365  history
 clare@clare-fun1:~/School/Week4$ 
 
+\n~[^~].+
+
 

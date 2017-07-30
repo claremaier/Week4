@@ -17,3 +17,11 @@ Other than simple typing errors and not reading closely enough (yes, we were war
 I did do down and work with the command strings at the bottom of the tutorial after thinking about it and trying to piece it together myself. **this is the next step I will have to work on** - I expect using the testing website to "play around" with regex a bit more will be useful.
 
 On to exercise two - making sense of the csv file (I think)
+
+
+**Ran it on whole file, not just sender on top**
+**deleted letter contents - kept stuff at top, then completed the exercise, highlight**
+*problem with reading and understanding - new language issues*
+*Tried Pallidum **checkname** and it made a picture of connected words, but it did not make sense to me and I couldn't figure out how to use it properly - try again*
+**list of people that helped me, links to the help they provided, links to the instructions I did wrong"**
+
