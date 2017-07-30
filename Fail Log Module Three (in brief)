@@ -1,0 +1,58 @@
+What I was trying to do
+I was trying to download and "clean" a group of diplomatic corresponance from Texas that had gone
+through OCR. I used Regex to clean it into a useable file and Google Refine to make it easy to
+search and manipulate for later use.
+
+What I did
+I finally had success with the command line and am able to navigate the simple functions in this
+with ease! I made note of this success here: 
+    "#Finally!
+I'm finally getting to understand this!
+**So Cool**
+*Look what I can do
+#Brief fail-log before actually creating the final one
+I'm creating this markup file in nano in my terminal. This in itself is a positive step for me 
+because it means I found it, opened it, and will be able to "add" "commit" and "push" it to a safe place (github).
+I found this module easier than the previous ones, which means I am learning something finally!
+Now I'm actually looking forward to mucking around with the final project.
+
+Used built-in Terminal - can see physical files on my computer - way easier
+had some trouble at the beginning understanding the task and how to get started
+*note: look through command line and find other notes to consolidate into one "fail-log"*
+I made much more use of the Slack channel other people posted *review and credit people* 
+and some initial use of my brother to walk me through the regex concepts *still a bit fuzzy, 
+but the notes and place to play around are helping*
+Other than simple typing errors and not reading closely enough (yes, we were warned), 
+things went pretty well. 
+
+**Ran it on whole file, not just sender on top**
+**deleted letter contents - kept stuff at top, then completed the exercise, highlight**
+*problem with reading and understanding - new language issues*
+*Tried Pallidum **checkname** and it made a picture of connected words, 
+but it did not make sense to me and I couldn't figure out how to use it properly - try again*
+
+Had assistance from my brother. Jeffblackadar helped me identify why my OpenRefine file did not look right.
+Dr. Graham further assisted by pointing out that the data probably contained the letter contents
+it and suggested ways to fix it (somehow I missed or unsuccessfully completed that step).
+
+My main "fails" this week were thinking that I had installed the Java and OpenRefine files (did all the 
+command stuff I thought), but only extracting the files and not actually running the correct install.
+Ex. "git apt install Java" instead of "sudo .... (correct name)". 
+As mentioned above, I also incorrectly deleted the letter contents from the file I was working on and 
+completed the steps without getting rid of the contents. This led to confusion and some help via Slack
+from Jeffblackadar and the Prof. My brother and I went back to an old version (luckily had many backups)
+and properly got rid of the contents and re-ran the tutorial.
+
+Things that were hard
+I still have trouble following the instructions when so many new terms and programs are installed.
+I tend to try to follow them without knowing what I am doing, thus being unable to identify the mistakes
+when they occur and causing more trouble down the line. Thinking before doing still needs to be applied better. 
+I did not figure out how to use the pallidio software. 
+
+Thoughts on where to go to next
+I did do down and work with the command strings at the bottom of the tutorial after 
+thinking about it and trying to piece it together myself. 
+**this is the next step I will have to work on** - I expect using the testing website to 
+"play around" with regex a bit more will be useful."
+I also need to continue carefully reading the instructions before doing things - it will make the frustrations less later.
+
